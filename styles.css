@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Roboto, 'Times New Roman', Times, serif;
+    color: coral;
+    background: skyblue;
+}
+
+#Country-List{
+    width: 40%;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.new-case, .new-death, .new-recovered{
+    margin-bottom: 20%;
+}
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.numbers{
+    color: black;
+    text-align: center;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+#main-title{
+    font-size: 3em;
+    margin: 12px;
+    margin-bottom: 40px;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>COVID-19 Tracker</title>
+</head>
+<body>
+    <h1 id ="main-title">Covid-19 Tracker</h1>
+    <select name="Countries" id="Country-List">
+        <option value="global" selected = "selected">Global</option>
+    </select>
+    <div class="grid">
+        <div class="cases">
+            <h1>Daily Cases</h1>
+            <div class="new-case numbers"></div>
+            <h1>Total Cases</h1>
+            <div class="total-case numbers"></div>
+        </div>
+        <div class="deaths">
+            <h1>Daily Deaths</h1>
+            <div class="new-death numbers"></div>
+            <h1>Total Deaths</h1>
+            <div class="total-death numbers"></div>
+        </div>
+        <div class="recovered">
+            <h1>Daily Recovered</h1>
+            <div class="new-recovered numbers"></div>
+            <h1>Total Recovered</h1>
+            <div class="total-recovered numbers"></div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
